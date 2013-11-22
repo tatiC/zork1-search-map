@@ -8,23 +8,8 @@ os.system('clear')
 
 places = ["clearing", "kitchen"]
 
-# place_at    OK
-# destination OK
-
-# place_at    NOT OK
-# destination NOT OK
-
-# place_at    OK
-# destination NOT OK
-
-# place_at    NOT OK
-# destination OK
-
 def check_place(place):
-	if (places.__contains__(place) == False):
-		return False
-	else:
-		return True
+	return places.__contains__(place)
 	
 # clearing = {
 # 	"n": "forest(impenetrable)",
